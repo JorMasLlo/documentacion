@@ -1,0 +1,136 @@
+/*INICIO*/
+body{
+  background-attachment:fixed;
+  font-family: arial;
+  color: silver;
+  background-image: url("../imagenes/grey.jpg");
+}
+
+/*----------------------HEADER-------------------------*/
+#inicio img{
+  display:block;
+  width: 400px;
+  height: 250px;
+  margin:0 auto 0 auto;
+}
+#inicio nav{
+  font-family: 'Bigelow Rules';
+  margin-top: 20px;
+  position: absolute;
+	left: 0;
+	width: 100%;
+	background: url("../imagenes/nav_background.png");
+}
+#inicio nav ul {
+  margin: 0 auto;
+  width: 1040px;
+  list-style: none;
+}
+
+  #inicio nav ul li {
+    float: left;
+  }
+
+    #inicio nav ul li a {
+      display: block;
+      margin-right: 20px;
+      width: 140px;
+      font-size: 24px;
+      letter-spacing: 2px;
+      line-height: 44px;
+      text-align: center;
+      text-decoration: none;
+      font-weight: bold;
+      color: #7a0000;
+    }
+
+      #inicio nav ul li a:hover {
+        color: #fff;
+      }
+/*--------------------FIN--HEADER-------------------------*/
+
+/*----------------------CONTENIDO-------------------------*/
+#contenido{
+  display:block;
+  margin-top: 100px;
+   font-family: "Times New Roman";
+   font-size: 20px;
+}
+/*Selectores*/
+/*De etiqueta*/
+h1 {color:red; text-align: center; text-decoration: underline; font-family: fantasy; font-size: 3em; letter-spacing: 0.3em}
+h2 {color:maroon;}
+h3 {color: red}
+caption {font-size: 3em; color:green; font-family: fantasy;}
+th {color: lime; font-size: 1.2em;}
+ul{
+  list-style: none;
+}
+/*Descendentes*/
+p b {font-size: 1em;}
+/*De clase*/
+.destacado { color: red; font-size: 1.5em; }
+.error {color: silver; font-size: 0.7em;}
+
+/*Margenes*/
+.cita
+{
+margin-top: 1em;
+margin-right: 2em;
+margin-left: 2em;
+margin-bottom: 1em;
+}
+
+/*Relleno*/
+.relleno
+{
+padding-top: 1em;
+padding-right: 1em;
+padding-bottom: 1em;
+padding-left: 1em;
+}
+
+/*Bordes*/
+.bordes
+{
+border-top-width:1.5em;
+border-right-width:1.5em;
+border-left-width:1.5em;
+border-bottom-width:1.5em;
+
+border-top-color: green;
+border-right-color: green;
+border-left-color: black;
+border-bottom-color: black;
+}
+
+/*Fondo*/
+
+
+
+div#paginacion
+{
+border: 2px solid silver;
+padding: .2em;
+}
+.derecha
+{ float: right; }
+.izquierda
+{ float: left; }
+
+div.clear
+{ clear: both; }
+.imagen
+{
+image-align: center;
+
+border-top-width:0.5em;
+border-right-width:0.5em;
+border-left-width:0.5em;
+border-bottom-width:0.5em;
+
+border-top-color: red;
+border-right-color: red;
+border-left-color: red;
+border-bottom-color: red;
+}
